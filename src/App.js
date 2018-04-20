@@ -6,6 +6,7 @@ const App = () => {
 	return (
 		<div className="App">
 		  Tu będzie lista komentarzy!
+		  <CommentsListContainer/>
 		</div>
 	);
 };
