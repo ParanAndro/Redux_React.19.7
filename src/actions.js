@@ -9,7 +9,13 @@ export const initialState = [
 		type: ADD_COMMENT,
 		id: uuid.v4(),
 		text: 'Ello'
-	}
+	},
+
+	{
+		type: ADD_COMMENT,
+		id: uuid.v4(),
+		text: 'Salut'
+	},
 ]
 
 export function addComment(text) {
