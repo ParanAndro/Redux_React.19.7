@@ -4,20 +4,6 @@ export const ADD_COMMENT = 'ADD_COMMENT';
 export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
 export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
-export const initialState = [
-	{
-		type: ADD_COMMENT,
-		id: uuid.v4(),
-		text: 'Ello'
-	},
-
-	{
-		type: ADD_COMMENT,
-		id: uuid.v4(),
-		text: 'Salut'
-	},
-]
-
 export function addComment(text) {
 	return {
 	type: ADD_COMMENT,
